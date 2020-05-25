@@ -18,8 +18,9 @@ end
 
 
 def long_planeteer_calls(short_words)
-  short_words.each do |word|
-    short_words.select
+  short_words.select do |word|
+    word.length > 4
+  end
 end
 
 
