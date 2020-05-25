@@ -1,6 +1,6 @@
-def roll_call_dwarves(dwarves)
-  dwarves.map.with_index do |dwarf, i|
-    "#{i + 1}. #{dwarf}"
+def roll_call_dwarves(dwarves_names)
+  i = 1
+  dwarves.collect do |dwarf|
     
   end
 end
