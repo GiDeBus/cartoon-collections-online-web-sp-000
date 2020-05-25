@@ -19,6 +19,7 @@ end
 
 def long_planeteer_calls(short_words)
   short_words.each do |word|
+    short_words.select
 end
 
 
